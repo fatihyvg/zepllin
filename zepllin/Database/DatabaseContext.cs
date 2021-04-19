@@ -42,7 +42,7 @@ namespace zepllin.Database
         {
             get
             {
-                return "server=localhost;uid=root;password=951753;database=zepllin;Allow User Variables=True";
+                return "server=database;uid=root;password=123456;database=databasename;Allow User Variables=True";
             }
         }
         #endregion
