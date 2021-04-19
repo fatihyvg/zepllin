@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\zepllin.csproj",
+  "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15914,233 +15914,463 @@
   "RootNamespace": "zepllin",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "zepllin\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Areas\\AdminRoleList\\Views\\AdminRolesList\\Index.cshtml",
-      "TargetPath": "Areas\\AdminRoleList\\Views\\AdminRolesList\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Shared\\Components\\AdminImagesLoad\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\AdminImagesLoad\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Profile\\MyProfile.cshtml",
-      "TargetPath": "Views\\Profile\\MyProfile.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Shared\\Components\\UploadImage\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\UploadImage\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Areas\\AdminCategory\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\AdminCategory\\Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\ResetPassword\\ResetPass.cshtml",
-      "TargetPath": "Views\\ResetPassword\\ResetPass.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Areas\\AdminPhotoSearch\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\AdminPhotoSearch\\Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Shared\\NotFound.cshtml",
-      "TargetPath": "Views\\Shared\\NotFound.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Account\\SignIn.cshtml",
-      "TargetPath": "Views\\Account\\SignIn.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Shared\\Components\\AdminHeader\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\AdminHeader\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Shared\\Components\\ImageContainer\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\ImageContainer\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Areas\\AdminImagesApprove\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\AdminImagesApprove\\Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Shared\\Components\\CategoryList\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\CategoryList\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Areas\\AdminUser\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\AdminUser\\Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Image\\Show.cshtml",
-      "TargetPath": "Views\\Image\\Show.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\ChangePassword\\ChangePassworder.cshtml",
-      "TargetPath": "Views\\ChangePassword\\ChangePassworder.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Admin\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Shared\\Components\\ImageCommentContainer\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\ImageCommentContainer\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Areas\\AdminUser\\Views\\AdminUsers\\Index.cshtml",
-      "TargetPath": "Areas\\AdminUser\\Views\\AdminUsers\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Areas\\AdminRoleList\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\AdminRoleList\\Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Shared\\Components\\ProfileHeader\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\ProfileHeader\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Shared\\AccessDenied.cshtml",
-      "TargetPath": "Views\\Shared\\AccessDenied.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Areas\\AdminCategory\\Views\\AdminCategoryCreate\\Index.cshtml",
-      "TargetPath": "Areas\\AdminCategory\\Views\\AdminCategoryCreate\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Shared\\Components\\ProfileContainer\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\ProfileContainer\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Shared\\Components\\Header\\Default.cshtml",
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Shared\\Components\\Header\\Default.cshtml",
       "TargetPath": "Views\\Shared\\Components\\Header\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\ForgotPassword\\Index.cshtml",
-      "TargetPath": "Views\\ForgotPassword\\Index.cshtml",
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Areas\\AdminCategory\\Views\\AdminCategoryCreate\\Index.cshtml",
+      "TargetPath": "Areas\\AdminCategory\\Views\\AdminCategoryCreate\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Areas\\AdminPhotoSearch\\Views\\AdminPhotoSearchList\\Index.cshtml",
-      "TargetPath": "Areas\\AdminPhotoSearch\\Views\\AdminPhotoSearchList\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Shared\\Components\\Footer\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\Footer\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Shared\\Components\\Container\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\Container\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Shared\\Components\\AdminHomeImages\\Default.cshtml",
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Shared\\Components\\AdminHomeImages\\Default.cshtml",
       "TargetPath": "Views\\Shared\\Components\\AdminHomeImages\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Category\\List.cshtml",
-      "TargetPath": "Views\\Category\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\PendingApproval\\PendApproval.cshtml",
-      "TargetPath": "Views\\PendingApproval\\PendApproval.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Areas\\AdminSignIn\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\AdminSignIn\\Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Member\\Images.cshtml",
-      "TargetPath": "Views\\Member\\Images.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Registration\\Register.cshtml",
-      "TargetPath": "Views\\Registration\\Register.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Views\\Search\\Image.cshtml",
-      "TargetPath": "Views\\Search\\Image.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Areas\\AdminImagesApprove\\Views\\AdminImage\\Index.cshtml",
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Areas\\AdminImagesApprove\\Views\\AdminImage\\Index.cshtml",
       "TargetPath": "Areas\\AdminImagesApprove\\Views\\AdminImage\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\fatih\\source\\repos\\zepllin\\Areas\\AdminSignIn\\Views\\AdminSign\\Index.cshtml",
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\_ViewStart.cshtml",
+      "TargetPath": "zepllin\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Shared\\Components\\CategoryList\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\CategoryList\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Areas\\AdminSignIn\\Views\\AdminSign\\Index.cshtml",
+      "TargetPath": "zepllin\\Areas\\AdminSignIn\\Views\\AdminSign\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Areas\\AdminRoleList\\Views\\_ViewImports.cshtml",
+      "TargetPath": "zepllin\\Areas\\AdminRoleList\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Shared\\Components\\AdminHeader\\Default.cshtml",
+      "TargetPath": "zepllin\\Views\\Shared\\Components\\AdminHeader\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Shared\\Components\\ProfileContainer\\Default.cshtml",
+      "TargetPath": "zepllin\\Views\\Shared\\Components\\ProfileContainer\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Shared\\Components\\ProfileHeader\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\ProfileHeader\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Shared\\Components\\ProfileHeader\\Default.cshtml",
+      "TargetPath": "zepllin\\Views\\Shared\\Components\\ProfileHeader\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Category\\List.cshtml",
+      "TargetPath": "Views\\Category\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Areas\\AdminCategory\\Views\\AdminCategoryCreate\\Index.cshtml",
+      "TargetPath": "zepllin\\Areas\\AdminCategory\\Views\\AdminCategoryCreate\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Shared\\Components\\UploadImage\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\UploadImage\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Areas\\AdminUser\\Views\\AdminUsers\\Index.cshtml",
+      "TargetPath": "Areas\\AdminUser\\Views\\AdminUsers\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Shared\\Components\\ImageContainer\\Default.cshtml",
+      "TargetPath": "zepllin\\Views\\Shared\\Components\\ImageContainer\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Areas\\AdminPhotoSearch\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\AdminPhotoSearch\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "zepllin\\Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+      "TargetPath": "zepllin\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\ChangePassword\\ChangePassworder.cshtml",
+      "TargetPath": "Views\\ChangePassword\\ChangePassworder.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Areas\\AdminImagesApprove\\Views\\_ViewImports.cshtml",
+      "TargetPath": "zepllin\\Areas\\AdminImagesApprove\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Areas\\AdminUser\\Views\\AdminUsers\\Index.cshtml",
+      "TargetPath": "zepllin\\Areas\\AdminUser\\Views\\AdminUsers\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Shared\\NotFound.cshtml",
+      "TargetPath": "Views\\Shared\\NotFound.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Registration\\Register.cshtml",
+      "TargetPath": "Views\\Registration\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Areas\\AdminPhotoSearch\\Views\\_ViewImports.cshtml",
+      "TargetPath": "zepllin\\Areas\\AdminPhotoSearch\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "TargetPath": "zepllin\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Account\\SignIn.cshtml",
+      "TargetPath": "Views\\Account\\SignIn.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Search\\Image.cshtml",
+      "TargetPath": "zepllin\\Views\\Search\\Image.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Registration\\Register.cshtml",
+      "TargetPath": "zepllin\\Views\\Registration\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Shared\\Components\\ImageCommentContainer\\Default.cshtml",
+      "TargetPath": "zepllin\\Views\\Shared\\Components\\ImageCommentContainer\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\PendingApproval\\PendApproval.cshtml",
+      "TargetPath": "zepllin\\Views\\PendingApproval\\PendApproval.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Profile\\MyProfile.cshtml",
+      "TargetPath": "zepllin\\Views\\Profile\\MyProfile.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Areas\\AdminUser\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\AdminUser\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Search\\Image.cshtml",
+      "TargetPath": "Views\\Search\\Image.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Member\\Images.cshtml",
+      "TargetPath": "Views\\Member\\Images.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Areas\\AdminSignIn\\Views\\AdminSign\\Index.cshtml",
       "TargetPath": "Areas\\AdminSignIn\\Views\\AdminSign\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Shared\\Components\\AdminImagesLoad\\Default.cshtml",
+      "TargetPath": "zepllin\\Views\\Shared\\Components\\AdminImagesLoad\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Areas\\AdminImagesApprove\\Views\\AdminImage\\Index.cshtml",
+      "TargetPath": "zepllin\\Areas\\AdminImagesApprove\\Views\\AdminImage\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\ForgotPassword\\Index.cshtml",
+      "TargetPath": "zepllin\\Views\\ForgotPassword\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Areas\\AdminPhotoSearch\\Views\\AdminPhotoSearchList\\Index.cshtml",
+      "TargetPath": "Areas\\AdminPhotoSearch\\Views\\AdminPhotoSearchList\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Category\\List.cshtml",
+      "TargetPath": "zepllin\\Views\\Category\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\ResetPassword\\ResetPass.cshtml",
+      "TargetPath": "Views\\ResetPassword\\ResetPass.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Image\\Show.cshtml",
+      "TargetPath": "zepllin\\Views\\Image\\Show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Shared\\Components\\ImageContainer\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\ImageContainer\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Areas\\AdminCategory\\Views\\_ViewImports.cshtml",
+      "TargetPath": "zepllin\\Areas\\AdminCategory\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Image\\Show.cshtml",
+      "TargetPath": "Views\\Image\\Show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Areas\\AdminUser\\Views\\_ViewImports.cshtml",
+      "TargetPath": "zepllin\\Areas\\AdminUser\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Shared\\AccessDenied.cshtml",
+      "TargetPath": "zepllin\\Views\\Shared\\AccessDenied.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Account\\SignIn.cshtml",
+      "TargetPath": "zepllin\\Views\\Account\\SignIn.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "zepllin\\Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\_ViewImports.cshtml",
+      "TargetPath": "zepllin\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Shared\\Components\\Header\\Default.cshtml",
+      "TargetPath": "zepllin\\Views\\Shared\\Components\\Header\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Areas\\AdminRoleList\\Views\\AdminRolesList\\Index.cshtml",
+      "TargetPath": "Areas\\AdminRoleList\\Views\\AdminRolesList\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Shared\\Components\\Container\\Default.cshtml",
+      "TargetPath": "zepllin\\Views\\Shared\\Components\\Container\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Shared\\AccessDenied.cshtml",
+      "TargetPath": "Views\\Shared\\AccessDenied.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+      "TargetPath": "zepllin\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Shared\\Components\\AdminHeader\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\AdminHeader\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\PendingApproval\\PendApproval.cshtml",
+      "TargetPath": "Views\\PendingApproval\\PendApproval.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Shared\\Components\\ProfileContainer\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\ProfileContainer\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Member\\Images.cshtml",
+      "TargetPath": "zepllin\\Views\\Member\\Images.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Shared\\NotFound.cshtml",
+      "TargetPath": "zepllin\\Views\\Shared\\NotFound.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Areas\\AdminCategory\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\AdminCategory\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Areas\\AdminSignIn\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\AdminSignIn\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Shared\\Components\\CategoryList\\Default.cshtml",
+      "TargetPath": "zepllin\\Views\\Shared\\Components\\CategoryList\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Areas\\AdminPhotoSearch\\Views\\AdminPhotoSearchList\\Index.cshtml",
+      "TargetPath": "zepllin\\Areas\\AdminPhotoSearch\\Views\\AdminPhotoSearchList\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\ResetPassword\\ResetPass.cshtml",
+      "TargetPath": "zepllin\\Views\\ResetPassword\\ResetPass.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Shared\\Components\\AdminImagesLoad\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\AdminImagesLoad\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Areas\\AdminRoleList\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\AdminRoleList\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Areas\\AdminSignIn\\Views\\_ViewImports.cshtml",
+      "TargetPath": "zepllin\\Areas\\AdminSignIn\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "TargetPath": "zepllin\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Areas\\AdminImagesApprove\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\AdminImagesApprove\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Profile\\MyProfile.cshtml",
+      "TargetPath": "Views\\Profile\\MyProfile.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Footer\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Admin\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Shared\\Components\\UploadImage\\Default.cshtml",
+      "TargetPath": "zepllin\\Views\\Shared\\Components\\UploadImage\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Shared\\Components\\AdminHomeImages\\Default.cshtml",
+      "TargetPath": "zepllin\\Views\\Shared\\Components\\AdminHomeImages\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Shared\\Components\\Container\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Container\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\ForgotPassword\\Index.cshtml",
+      "TargetPath": "Views\\ForgotPassword\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\Home\\Index.cshtml",
+      "TargetPath": "zepllin\\Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Views\\ChangePassword\\ChangePassworder.cshtml",
+      "TargetPath": "zepllin\\Views\\ChangePassword\\ChangePassworder.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\Views\\Shared\\Components\\ImageCommentContainer\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\ImageCommentContainer\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Documents\\GitHub\\zepllin\\zepllin\\Areas\\AdminRoleList\\Views\\AdminRolesList\\Index.cshtml",
+      "TargetPath": "zepllin\\Areas\\AdminRoleList\\Views\\AdminRolesList\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
