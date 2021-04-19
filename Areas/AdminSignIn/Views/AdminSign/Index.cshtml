@@ -1,0 +1,58 @@
+﻿@model AdminLogin
+<!DOCTYPE html>
+
+<html lang="tr">
+<head>
+    <title>@UrlPaths.title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="@UrlPaths.metadecription">
+    <link rel="icon" type="image/png" sizes="16x16" href="@Url.Content(UrlPaths.favicon16x16)">
+    <link rel="icon" type="image/png" sizes="32x32" href="@Url.Content(UrlPaths.favicon32x32)">
+    <link rel="apple-touch-icon" sizes="180x180" href="@Url.Content(UrlPaths.favicon180x180)">
+    <environment include="Development">
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.bulmacss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.sitecss)" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.bulmacss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.minsitecss)" /> 
+    </environment>
+</head>
+<body>
+    <section class="hero is-fullheight adminheadcolor">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="column is-4 is-offset-4">
+                    <form asp-area="AdminSignIn" asp-controller="AdminSign" asp-action="Index">
+                        <div class="box">
+                            <p class="subtitle is-4 has-text-black">Admin Girişi</p>
+                            <div class="field">
+                                <span asp-validation-for="UserName" class="is-danger"></span>
+                                <input class="input is-medium" type="text" asp-for="UserName" aria-label="UserName" placeholder="Kullanıcı Adı" />
+                            </div>
+                            <div class="field">
+                                <p class="control has-icons-left">
+                                    <span asp-validation-for="UserPassword" class="is-danger"></span>
+                                    <input class="input is-medium" type="password" asp-for="UserPassword" aria-label="Password" placeholder="Şifre" />
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-lock"></i>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <div asp-validation-summary="ModelOnly" class="is-danger">
+
+                                    </div>
+                                    <input type="submit" class="button is-info is-fullwidth" value="Giriş" />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

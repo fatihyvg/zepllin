@@ -1,0 +1,13 @@
+2021-04-10 17:52:01.2545|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-04-10 17:52:01.4436|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-04-10 17:52:01.4990|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-04-10 17:52:01.5092|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-04-10 17:52:01.5240|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\fatih\source\repos\zepllin\zepllin
+2021-04-10 17:57:41.5855|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user.
+2021-04-10 17:57:41.6004|WARN|Microsoft.AspNetCore.Identity.SignInManager|User failed to provide the correct password.
+2021-04-10 17:57:44.5444|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user.
+2021-04-10 17:57:44.5444|WARN|Microsoft.AspNetCore.Identity.SignInManager|User failed to provide the correct password.
+2021-04-10 17:57:50.2068|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user.
+2021-04-10 17:57:50.2113|WARN|Microsoft.AspNetCore.Identity.SignInManager|User failed to provide the correct password.
+2021-04-10 17:57:55.3941|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user.
+2021-04-10 17:57:55.4073|WARN|Microsoft.AspNetCore.Identity.SignInManager|User failed to provide the correct password.
