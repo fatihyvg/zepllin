@@ -6,10 +6,10 @@ namespace zepllin.EmailConfig
         #region
         public EmailConfigs()
         {
-            UserName = "zepllinphotograph@gmail.com";
-            Password = "love951753";
-            From = "zepllinphotograph@gmail.com";
-            SmtpServer = "smtp.gmail.com";
+            UserName = "";
+            Password = "";
+            From = "";
+            SmtpServer = "";
             Port = 587;
         }
         public string From
