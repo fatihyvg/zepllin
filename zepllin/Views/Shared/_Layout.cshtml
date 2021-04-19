@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@UrlPaths.title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#212121">
+    <link rel="manifest" href="@Url.Content(UrlPaths.pwapath)" />
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta name="description" content="@UrlPaths.metadecription">
+    <meta name="title" content="@UrlPaths.title" />
+    <link rel="canonical" href="@UrlPaths.canonicalurl" />
+    <link rel="apple-touch-icon" sizes="180x180" href="@Url.Content(UrlPaths.favicon180x180)">
+    <link rel="icon" type="image/png" sizes="32x32" href="@Url.Content(UrlPaths.favicon32x32)">
+    <link rel="icon" type="image/png" sizes="16x16" href="@Url.Content(UrlPaths.favicon16x16)">
+    <environment include="Development">
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.bulmacss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.bulmasocialcss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.sitecss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.justifiedgallerycss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.fontawesomecss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.fontawesomeallcss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.backtotopcss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.jqueryuibasethemecss)" />
+        <script type="text/javascript" src="@Url.Content(UrlPaths.jquery)"></script>
+        <script type="text/javascript" src="@Url.Content(UrlPaths.justifiedgalleryscript)"></script>
+        <script type="text/javascript" src="@Url.Content(UrlPaths.jqueryuisearchscript)"></script>
+        <script type="text/javascript" src="@Url.Content(UrlPaths.backtotopscript)"></script>
+        <script type="text/javascript" src="@Url.Content(UrlPaths.startscript)"></script>
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.bulmacss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.bulmasocialcss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.minsitecss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.justifiedgallerycss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.fontawesomecss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.fontawesomeallcss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.backtotopmincss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.jqueryuibasethemecss)" />
+        <script type="text/javascript" src="@Url.Content(UrlPaths.jquery)"></script>
+        <script type="text/javascript" src="@Url.Content(UrlPaths.justifiedgalleryscript)"></script>
+        <script type="text/javascript" src="@Url.Content(UrlPaths.jqueryuisearchscript)"></script>
+        <script type="text/javascript" src="@Url.Content(UrlPaths.backtotopscript)"></script>
+        <script type="text/javascript" src="@Url.Content(UrlPaths.minstartscript)"></script>
+    </environment>
+</head>
+<body>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register("Contents/js/service-worker.js");
+            });
+        }
+    </script>
+    @RenderBody()
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

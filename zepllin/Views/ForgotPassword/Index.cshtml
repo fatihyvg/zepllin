@@ -1,0 +1,70 @@
+﻿@model ForgotPassword
+@{
+    IgnoreBody();
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title>Forgot Password | Zepllin</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#212121">
+    <link rel="manifest" href="@Url.Content(UrlPaths.pwapath)" />
+    <meta name="description" content="@UrlPaths.metadecription">
+    <link rel="icon" type="image/png" sizes="16x16" href="@Url.Content(UrlPaths.favicon16x16)">
+    <link rel="icon" type="image/png" sizes="32x32" href="@Url.Content(UrlPaths.favicon32x32)">
+    <link rel="apple-touch-icon" sizes="180x180" href="@Url.Content(UrlPaths.favicon180x180)">
+    <environment include="Development">
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.bulmacss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.sitecss)" />
+        <script type="text/javascript" src="@Url.Content(UrlPaths.jquery)"></script>
+        <script type="text/javascript" src="@Url.Content(UrlPaths.jqueryvalidatescript)"></script>
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.bulmacss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.minsitecss)" />
+        <script type="text/javascript" src="@Url.Content(UrlPaths.jquery)"></script>
+        <script type="text/javascript" src="@Url.Content(UrlPaths.jqueryvalidatescript)"></script>
+    </environment>
+</head>
+<body>
+    <main class="hero is-fullheight is-fullheight hero-background is-fullmobile is-fulldesktop is-fulltablet is-fullhd is-fullwidescreen">
+        <div class="hero-body">
+            <div class="container has-text-centered is-fullhd is-widescreen">
+                <div asp-validation-summary="ModelOnly"></div>
+                <div class="column is-4 is-offset-4">
+                    <div class="box">
+                        <form method="post" asp-controller="ForgotPassword" asp-action="Index">
+                            <div class="field">
+                                <div class="control">
+                                    <label asp-for="Email" class="is-family-sans-serif label is-black">Email:</label>
+                                    <input asp-for="Email" class="input is-medium  is-black" type="email" />
+                                    <span asp-validation-for="Email"></span>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <input type="submit" class="button is-black is-fullwidth is-family-sans-serif" value="Send" />
+                                    @if (!string.IsNullOrEmpty(nameof(ViewBag.EmailMessage)))
+                                    {
+                                        <label class="label">
+                                            @ViewBag.EmailMessage
+                                        </label>
+                                    }
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <a href="@Url.Action("Index","Home")" rel="nofollow" class="is-size-7 is-size-7-desktop is-size-7-fullhd is-size-7-mobile is-size-7-tablet is-size-7-widescreen has-text-black member">Return Home</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

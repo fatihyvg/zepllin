@@ -1,0 +1,76 @@
+﻿@model PagedList.Core.PagedList<CreateUsers>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title>@UrlPaths.title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="@UrlPaths.metadecription">
+    <link rel="icon" type="image/png" sizes="16x16" href="@Url.Content(UrlPaths.favicon16x16)">
+    <link rel="icon" type="image/png" sizes="32x32" href="@Url.Content(UrlPaths.favicon32x32)">
+    <link rel="apple-touch-icon" sizes="180x180" href="@Url.Content(UrlPaths.favicon180x180)">
+    <environment include="Development">
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.bulmacss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.sitecss)" />
+        <script type="text/javascript" src="@Url.Content(UrlPaths.jquery)"></script>
+        <script type="text/javascript" src="@Url.Content(UrlPaths.jqueryunobtrusiveajax)"></script>
+        <script type="text/javascript" src="@Url.Content(UrlPaths.infoscript)"></script>
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.bulmacss)" />
+        <link rel="stylesheet" type="text/css" href="@Url.Content(UrlPaths.minsitecss)" /> 
+        <script type="text/javascript" src="@Url.Content(UrlPaths.jquery)"></script>
+        <script type="text/javascript" src="@Url.Content(UrlPaths.jqueryunobtrusiveajax)"></script>
+        <script type="text/javascript" src="@Url.Content(UrlPaths.mininfoscript)"></script> 
+    </environment>
+</head>
+<body>
+    @await Component.InvokeAsync("AdminHeader")
+    <div class="container">
+        <div class="columns is-centered mt-2">
+            <div class="column">
+                <form method="post" asp-area="AdminUser" asp-controller="AdminUsers" asp-action="AddToRole" data-ajax="true" data-ajax-method="post" data-ajax-complete="rolecomplete" data-ajax-failure="rolefailure">
+                    <label for="rolename">Rol İsmi:</label>
+                    <input class="input is-fullwidth has-text-black" name="rolename" type="text" placeholder="Rol Ekle" />
+                    <input class="button is-fullwidth is-black has-text-white is-medium mt-2" type="submit" value="Rol Ekle" />
+                </form>
+            </div>
+        </div>
+        <div class="columns is-centered mt-2">
+            <div class="column">
+                <form method="post" asp-area="AdminUser" asp-controller="AdminUsers" asp-action="Index">
+                    <input type="text" class="input is-fullwidth is-medium" value="@ViewBag.searchterm" name="searchterm" placeholder="Arama" />
+                    <button type="submit" class="button is-medium is-black is-fullwidth has-text-white mt-2">Kullanıcı Ara</button>
+                </form>
+            </div>
+        </div>
+        @foreach (var item in Model)
+        {
+            <div class="columns is-multiline is-centered mt-2">
+
+                <div class="column is-one-quarter">
+                    <p class="is-size-6 has-text-black">@item.UserName</p>
+                </div>
+                <div class="column is-one-quarter">
+                    <form method="post" asp-area="AdminUser" asp-controller="AdminUsers" asp-action="UserDelete" asp-route-id="@item.Id" data-ajax="true" data-ajax-method="post" data-ajax-complete="usercomplete" data-ajax-failure="userfailure">
+                        <button class="button is-small is-black has-text-white is-fullwidth is-size-6" type="submit">Sil</button>
+                    </form>
+                </div>
+                <div class="column is-one-quarter">
+                    <a class="button is-black has-text-white is-small is-fullwidth is-size-6" asp-area="AdminRoleList" asp-controller="AdminRolesList" asp-action="Index" asp-route-id="@item.Id" rel="nofollow">Rol Düzenle</a>
+                </div>
+            </div>
+        }
+
+        <div class="columns">
+            <div class="column">
+                <pager list="@Model" asp-area="AdminUser" asp-controller="AdminUsers" asp-action="Index" asp-route-searchterm="@ViewBag.searchterm"></pager>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
