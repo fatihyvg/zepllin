@@ -1,0 +1,34 @@
+﻿@using Microsoft.AspNetCore.Http
+<nav class="navbar is-transparent is-fixed-top is-fullmobile is-fulldesktop is-fulltablet is-fullhd is-fullwidescreen">
+    <div class="container is-widescreen is-fullhd">
+        <div class="navbar-brand">
+            <a class="logo" href="@Url.Action("Index","Home")" title="Zepllin">
+                <img class="image logo" src="@Url.Content(UrlPaths.logo)" height="70" width="81" alt="zepllin-logo" title="Zepllin" />
+            </a>
+            <span class="navbar-burger burger-profile" data-target="profile-burger-menu">
+                <span class="burger-spans"></span>
+                <span class="burger-spans"></span>
+                <span class="burger-spans"></span>
+            </span>
+        </div>
+        <div id="profile-burger-menu" class="navbar-menu">
+            <div class="navbar-end">
+                <div class="navbar-item has-dropdown is-hoverable" href="#">
+                    <a class="navbar-link is-size-6 is-size-6-desktop is-size-6-mobile is-size-6-fullhd is-size-6-tablet is-size-6-widescreen has-text-white is-arrowless">Profile</a>
+                    <div class="navbar-dropdown">
+                        @if (Context.Session.GetString("realusername") != null)
+                        {
+                            <p class="navbar-item is-size-7 is-size-7-desktop is-size-7-fullhd is-size-7-mobile is-size-7-tablet is-size-7-widescreen">Welcome: @Context.Session.GetString("realusername")</p>
+                        }
+                        <a id="image-upload" class="navbar-item is-size-7 is-size-7-desktop is-size-7-mobile is-size-7-fullhd is-size-7-tablet is-size-7-widescreen member" rel="nofollow" href="#" onclick="UploadModalShow();"><i class="fas fa-upload fa-fw" style="color:black;"></i>&nbsp;Upload Photo</a>
+                        <a href="@Url.Action("PendApproval","PendingApproval",new { UserNormalId = Context.Session.GetString("userguidid").Substring(1,8) })" rel="nofollow" class="navbar-item is-size-7 is-size-7-mobile is-size-7-tablet is-size-7-widescreen is-size-7-fullhd is-size-7-desktop member"><i class="fas fa-image"></i>&nbsp;Pending Approval</a>
+                        <a class="navbar-item is-size-7 is-size-7-mobile is-size-7-tablet is-size-7-widescreen is-size-7-fullhd is-size-7-desktop member" rel="nofollow" href="@Url.Action("ChangePassworder","ChangePassword")"><i class="fas fa-cog"></i>&nbsp;Settings</a>
+                        <a class="navbar-item is-size-7 is-size-7-desktop is-size-7-mobile is-size-7-fullhd is-size-7-tablet is-size-7-widescreen member" rel="nofollow" href="@Url.Action("UserSıgnOut","Profile")"><i class="fas fa-sign-out-alt"></i>&nbsp;Sign Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+@await Component.InvokeAsync("UploadImage")
+

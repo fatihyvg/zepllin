@@ -1,0 +1,45 @@
+﻿@{
+    object controller = ViewContext.RouteData.Values["Controller"];
+    switch (controller)
+    {
+        case "Account":
+            Layout = "~/Views/Account/SignIn.cshtml";
+            break;
+        case "Registration":
+            Layout = "~/Views/Registration/Register.cshtml";
+            break;
+        case "ForgotPassword":
+            Layout = "~/Views/ForgotPassword/Index.cshtml";
+            break;
+        case "ResetPassword":
+            Layout = "~/Views/ResetPassword/ResetPass.cshtml";
+            break;
+        case "ChangePassword":
+            Layout = "~/Views/ChangePassword/ChangePassworder.cshtml";
+            break;
+        case "Profile":
+            Layout = "~/Views/Profile/MyProfile.cshtml";
+            break;
+        case "Image":
+            Layout = "~/Views/Image/Show.cshtml";
+            break;
+        case "Member":
+            Layout = "~/Views/Member/Images.cshtml";
+            break;
+        case "Category":
+            Layout = "~/Views/Category/List.cshtml";
+            break;
+        case "Edit":
+            Layout = "~/Views/Edit/ReEdit.cshtml";
+            break;
+        case "PendingApproval":
+            Layout = "~/Views/PendingApproval/PendApproval.cshtml";
+            break;
+        case "Search":
+            Layout = "~/Views/Search/Image.cshtml";
+            break;
+        default:
+            Layout = "~/Views/Shared/_Layout.cshtml";
+            break;
+    }
+}
